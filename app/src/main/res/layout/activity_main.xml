@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/contactosimg" />
+
+    <Button
+        android:id="@+id/btnregistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onclick"
+        android:text="@string/str_registrar"
+        android:drawableLeft="@drawable/drawable_max_width"
+        android:drawablePadding="8dp"
+
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/btnbuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onclick"
+        android:text="@string/str_buscarcontacto"
+        android:drawableLeft="@drawable/drawable_buscar_max_width"
+        android:drawablePadding="8dp"
+
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnlistar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onclick"
+        android:text="@string/str_listarcontactos"
+        android:drawableLeft="@drawable/drawable_listar_max_width"
+        android:drawablePadding="8dp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

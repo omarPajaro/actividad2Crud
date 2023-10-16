@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CrudApp</string>
+
+    <string name="str_btnbuscar">Buscar Contacto</string>
+    <string name="str_registrar">Registrar Contacto</string>
+    <string name="str_btnlistar">Listar contactos</string>
+
+    <string name="str_telefono">Telefono</string>
+    <string name="str_nombre">Nombre</string>
+    <string name="str_correo">Correo</string>
+
+    <string name="str_digitenombre">Digite Nombre</string>
+    <string name="str_digitetelefono">Digite Telefono</string>
+    <string name="str_digitecorreo">Digite Correo</string>
+
+    <string name="str_bienvenido">Bienvenidos</string>
+    <string name="str_descripcion_imagen">Todo</string>
+    <string name="str_listarcontactos">Listado de contactos</string>
+    <string name="str_gestioncontactos">Gestion de contactos</string>
+    <string name="str_buscarcontacto">Buscar contacto por nombre</string>
+    <string name="str_digitecontacto">Digite contacto</string>
+
+    <string name="str_btnguardar">Guardar</string>
+    <string name="str_btnactualizar">Actualizar</string>
+    <string name="str_btnborrar">Borrar</string>
+
+
+</resources>
